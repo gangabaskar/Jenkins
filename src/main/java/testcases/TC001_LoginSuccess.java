@@ -15,7 +15,7 @@ public class TC001_LoginSuccess extends ProjectWrappers{
 		.enterUserName(userName)
 		.enterPassword(passWord)
 		.clickLogin()
-		.verifySuccessMessage("You are successfully logged out");
+		.verifySuccessMessage("You are successfully logged in");
 
 	}
 	@BeforeClass
